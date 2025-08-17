@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 79.92 s <<< FAILURE! -- in TestSuite
+testrunners.TestRunners.runScenario["Validate invalid guest count", "Validate the Booking module in the Event Management System"](2) -- Time elapsed: 10.67 s <<< FAILURE!
+java.lang.AssertionError: Guest count error message is not as expected.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepdefinitions.BookingModuleDefinitions.a_guest_count_error_message_should_be_displayed(BookingModuleDefinitions.java:82)
+	at ✽.A guest count error message should be displayed(file:///D:/EventManagementSystem/src/test/resources/features/bookingModule.feature:14)
+
+testrunners.TestRunners.runScenario["Submit with invalid name", "Validate the Contact Us module in the Event Management System"](5) -- Time elapsed: 13.08 s <<< FAILURE!
+java.lang.AssertionError: Name error message is not as expected.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepdefinitions.ContactUsModuleDefinitions.a_name_error_message_should_be_displayed(ContactUsModuleDefinitions.java:65)
+	at ✽.A name error message should be displayed(file:///D:/EventManagementSystem/src/test/resources/features/contactUs.feature:14)
+
+testrunners.TestRunners.runScenario["Submit with invalid email format", "Validate the Contact Us module in the Event Management System"](6) -- Time elapsed: 12.49 s <<< FAILURE!
+java.lang.AssertionError: Email format error message is not as expected.
+	at org.testng.Assert.fail(Assert.java:110)
+	at stepdefinitions.ContactUsModuleDefinitions.an_email_format_error_message_should_be_displayed(ContactUsModuleDefinitions.java:46)
+	at ✽.An email format error message should be displayed(file:///D:/EventManagementSystem/src/test/resources/features/contactUs.feature:19)
+

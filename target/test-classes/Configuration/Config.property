@@ -1,0 +1,5 @@
+browser=chrome
+url=https://webapps.tekstac.com/SeleniumApp1/EventManagement/
+implicitWait=10
+sauceUserName=oauth-shadabhaidri.work-58841
+sauceAccessKey=bd237008-b958-4953-acdb-df00b7c91086
